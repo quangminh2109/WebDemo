@@ -1,0 +1,170 @@
+<html>
+	<head>
+		<title>Bài Kiểm Tra</title>
+		<meta charset='utf-8'</meta>
+		<link rel='stylesheet' type='text/css' href='themeCSS.css'>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style>
+		a:visited{
+	color:blue;
+}
+a:hover{
+	text-decoration:none;
+	color:green;
+}
+a{
+	text-decoration:none;
+	margin:0 5px;
+}
+input[type=text]{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid grey;
+	padding: 8px 12px;
+	margin: 8px 0;
+}
+input[type=email]{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid grey;
+	padding: 8px 20px;
+	margin: 8px 0;
+}
+input[type=password]{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid grey;
+	padding: 8px 20px;
+	margin: 8px 0;
+}
+input[type=submit]{
+	background-color:none;
+	padding: 8px 15px;
+	margin: 8px 0;
+	border:none;
+	border-radius:3px;
+}
+input[type=tel]{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid grey;
+	padding: 8px 20px;
+	margin: 8px 0;
+}
+select{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	height:35px;
+	padding: 5px 0;
+	margin: 0 2px;
+}
+input[type=date]{
+	padding: 5px 10px;
+	margin: 5px 4px;
+}
+input[type=radio]{
+	margin: 5px 10px;
+}
+#tt:hover{
+	background-color:skyblue;
+	color:white;
+}
+input[type=number]{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid grey;
+	padding: 8px 20px;
+	margin: 8px 5px;
+}
+	</style>
+	</head>
+		<body>
+			<form method=get action=''>
+				<table border=0 cellspacing=1 align=center>
+					<tr>
+						<td><h2 align=center><font size=7>Đăng ký<br><font size=5>Tạo địa chỉ email Yahoo
+							</h2>
+						</td>
+					</tr>
+					<tr>
+						<td><input type=text value='' name='lastname' size=22 placeholder='Tên'>
+							<input type=text value='' name='firstname' size=22 placeholder='Họ'></td>
+					</tr>
+					<tr>
+						<td><input type=email name='email' size=50 placeholder='Địa chỉ email'></td>
+					</tr>
+					<tr>
+						<td><font size=3><a href>Tôi muốn sử dụng địa chỉ email hiện tại của tôi</a></td>
+					</tr>
+					<tr>
+						<td><input type=password name='Txtpassword' size=50 placeholder='Mật khẩu'</td>
+					</tr>
+					<tr>
+						<td align=left>
+						<select name='sltphone'>
+							<option value='+84'>+84
+							<option value='+85'>+85
+							<option value='+86'>+86
+							<option value='+87'>+87
+						<input type=tel name='TxtPhonenumber' size=43 pattern=[0]{1}[1-9]{0}[0-9]{8} placeholder='Số điện thoại di động'>
+						</td>
+					</tr>
+					<tr>
+						<td><input type='number' name='Date' placeholder='Ngày' min='1' max='31'>
+							<input type='number' name='Date' placeholder='Tháng' min='1' max='12'>
+							<input type='number' name='Date' placeholder='Năm Sinh' min='1920' max='2021'>
+						</td>
+					</tr>
+					<tr>
+						<td>Giới tính:
+							<input type=radio name = 'rdGender' value='Male'><i class="material-icons">male</i>
+							<input type=radio name = 'rdGender' value='Famale'><i class="material-icons">female</i>
+						</td>
+					</tr>
+					<tr>
+						<td>Sở thích:<br>
+						<table>
+						<tr>
+							<td width =120><input type=checkbox name='chkHobbies'value='Money' checked>Tiền
+							</td>
+							<td width=120><input type=checkbox name='chkHobbies'value='Eating' checked>Ăn
+							</td>
+							<td width=120><input type=checkbox name='chkHobbies'value='Sleeping' checked>Ngủ
+							</td>
+						</tr>
+						<tr>
+							<td width=120><input type=checkbox name='chkHobbies'value='Shopping' checked>Nghe nhạc
+							</td>
+							<td width=120><input type=checkbox name='chkHobbies'value='Sport' checked>Xem film
+							</td>
+							<td width=120><input type=checkbox name='chkHobbies'value='Traveling' checked>Chơi games
+							</td>
+						</tr>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan=2 align=center height=80px>Bằng việc nhấp vào "Tiếp tục", bạn đồng ý với<br><a href='https://www.facebook.com/policies_center/'target ="_blank">Điều khoản</a> và
+						<a href='https://www.facebook.com/privacy/explanation'target ="_blank">Chính sách riêng tư</a>
+					</tr>
+					<tr>
+						<th align=center colspan=2><input id='tt' type =submit value='Tiếp tục'>
+						</th>
+					</tr>
+					<tr>
+						<td><hr></td>
+					</tr>
+					<tr>
+						<td><p align=center><font size=3>Bạn đã có tài khoản? <a href='https://www.facebook.com/'target="_blank">Đăng nhập</a>
+							</p>
+						</td>
+					</tr>
+				</table>
+		</body>
+</html>
